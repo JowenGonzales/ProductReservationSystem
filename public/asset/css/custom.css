@@ -1,0 +1,48 @@
+.navbar-brand {
+    display: flex;
+    align-items: center; /* Ensures the logo is vertically aligned */
+    height: 50px; /* Same as the image height */
+    padding: 0; /* Removes unnecessary padding */
+}
+
+.navbar-brand img {
+    height: 40px; /* Ensure the image height is fixed */
+    width: auto; /* Maintain the aspect ratio */
+    display: block; /* Prevents inline space issues */
+}
+.text-whites {
+    color: white;
+}
+
+.slider-item {
+    position: relative; /* Ensure positioning context for overlay */
+}
+
+.slider-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 2; /* Ensure overlay is above the image */
+}
+
+.slider-item .tp-caption {
+    position: relative;
+    z-index: 3; /* Ensure text is above the overlay */
+}
+.navbar-brand-container .logo {
+    display: inline-block; /* Ensure images are inline */
+    vertical-align: middle; /* Align images vertically */
+    margin-right: 5px; /* Optional: Add spacing between images */
+}
+
+.sticky-header header.sticky {
+    background: white !important;
+}
+
+.dropdown .dropdown-toggle:after {
+    content: none;
+
+}

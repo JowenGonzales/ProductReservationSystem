@@ -1,0 +1,120 @@
+.feather-light {
+    color: white;
+}
+.img-avatar {
+    width: 40px;
+    height: 40px;
+}
+.img-avatar-notification {
+    width: 70px;
+    height: 70px;
+}
+
+.logo-primary-color {
+    color: #525fab;
+}
+.logo-secondary-color {
+    color: #f9bd15;
+}
+
+.file-subtext {
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 0;
+}
+
+.subtext {
+    color: #999999;
+}
+
+.msg-avatar {
+    margin: 0 0 0 10px;
+    width: 33px;
+    height: 33px;
+}
+.profile-avatar {
+    width: 85px;
+    height: 85px;
+}
+.profile-avatar-overlay {
+    position: absolute;
+    opacity: .75;
+    min-width: 85px ;
+    min-height: 85px;
+
+    background-color: black;
+
+}
+.profile-avatar-overlay-change-image {
+
+    cursor: pointer;
+}
+.bordered {
+    border: 1px solid red;
+}
+
+
+.notification-scroll {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 400px;
+}
+
+.div-scroll {
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 400px;
+}
+
+.invalid {
+    border-color: #E44141;
+}
+
+@media print {
+    .hidden-when-print {
+        display: none; /* Hide the calendar */
+    }
+    /* Add any additional styles for the printed list here */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-track { // set style to track
+background : #555999;
+    border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb { // sets style to thumb
+background : rgba(255,255,255,0.5);
+    border-radius: 10px;
+    box-shadow:  0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.notification-color {
+    background-color: rgba(223, 222, 230, 0.3);
+}
+
+
+
+.mark-as-read {
+    position: relative;
+    transition: color 0.5s ease-in-out;
+}
+
+.checkmark {
+    display: inline-block;
+    opacity: 0;
+    margin-left: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.mark-as-read.read {
+    color: green;
+}
+
+.mark-as-read.read .checkmark {
+    opacity: 1;
+}
+.avatar-border {
+    border: 1px solid #f9bd15;
+}
